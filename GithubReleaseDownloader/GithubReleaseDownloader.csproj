@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>GithubReleaseDownloader</AssemblyName>
+    <Platforms>x64</Platforms>
+    <UserSecretsId>d6283d97-b8c3-42c3-89f6-1f3ed2f4cb52</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.0" />
+    <PackageReference Include="Prism.DryIoc" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GithubDownloader.WpfModule\GithubDownloader.WpfModule.csproj" />
+  </ItemGroup>
+</Project>

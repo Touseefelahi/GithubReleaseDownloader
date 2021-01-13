@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>GithubDownloader.WpfModule</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Octokit" Version="0.48.0" />
+    <PackageReference Include="Prism.Wpf" Version="8.0.0.1909" />
+  </ItemGroup>
+</Project>
